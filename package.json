@@ -1,0 +1,33 @@
+{
+  "name": "lambda-boilerplate",
+  "description": "lambda-boilerplate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/thegreatsunra/lambda-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thegreatsunra/lambda-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thegreatsunra/lambda-boilerplate/issues"
+  },
+  "author": "Dane Petersen <thegreatsunra@gmail.com>",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Dane Petersen",
+      "email": "thegreatsunra@gmail.com",
+      "url": "https://github.com/thegreatsunra"
+    }
+  ],
+  "engines": {
+    "node": "^8.0.0",
+    "npm": "^5.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "main": "index.js"
+}
