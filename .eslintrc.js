@@ -10,7 +10,11 @@ module.exports = {
     node: true,
   },
   // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-  extends: 'standard',
+  extends: [
+    'standard',
+    'eslint:recommended',
+    'plugin:node/recommended',
+  ],
   plugins: [
     'node'
   ],
