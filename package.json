@@ -35,6 +35,8 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "scripts": {
+    "lint": "eslint --ext .js --fix ./",
+    "lint:fix": "npm run lint",
   },
   "main": "index.js"
 }
