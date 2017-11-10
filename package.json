@@ -1,7 +1,7 @@
 {
   "name": "lambda-boilerplate",
   "description": "lambda-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/thegreatsunra/lambda-boilerplate",
   "repository": {
     "type": "git",
@@ -34,9 +34,10 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "scripts": {
+    "lambda": "(cd ./src && sam local invoke 'HelloWorld' -e event.json)",
     "lint": "eslint --ext .js --fix ./",
     "lint:fix": "npm run lint",
-    "start": "(cd ./src && sam local invoke 'HelloWorld' -e event.json)",
+    "start": "npm run lambda",
     "validate": "(cd ./src && sam validate)"
   },
   "main": "index.js"
