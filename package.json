@@ -37,6 +37,7 @@
   "scripts": {
     "lint": "eslint --ext .js --fix ./",
     "lint:fix": "npm run lint",
+    "start": "sam local invoke 'HelloWorld' -e event.json"
   },
   "main": "index.js"
 }
